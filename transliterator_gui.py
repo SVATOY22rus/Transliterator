@@ -46,5 +46,8 @@ output_text_label.pack()
 output_text_box = tk.Text(root, height=5, width=50, state=tk.DISABLED)
 output_text_box.pack()
 
+# Фокус на поле ввода
+input_text_box.focus_set()
+
 # Запуск основного цикла приложения
 root.mainloop()
